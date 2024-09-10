@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 
 const Newsletter = () => {
   return (
-    <div className="bg-white text-start">
+    <div className="bg-white text-start py-12">
       <div className="container mx-auto  px-4 lg:flex lg:items-center lg:justify-between text-start">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
           <h2 className="text-2xl md:text-4xl font-semibold md-4">

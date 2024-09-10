@@ -26,7 +26,7 @@ const Testimonials = () => {
         <div className="h-1 w-20 bg-primary rounded-full"></div>
       </div>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         autoplay={{
           delay: 1000,
