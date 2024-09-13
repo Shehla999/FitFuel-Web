@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./components/Home";
-import About from "./components/About";
+import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -11,8 +11,8 @@ const routes = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/about",
-    element: <About />,
+    path: "/aboutus",
+    element: <AboutUs />,
   },
   {
     path: "/products",

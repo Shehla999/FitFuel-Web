@@ -28,11 +28,11 @@ const Newsletter = () => {
         </div>
 
         <div className="lg:w-1/2 text-start">
-          <form className="flex flex-col lg:flex-row items-center">
+          <form className="flex w-full max-w-md flex-col space-y-4">
             <input
               type="email"
               placeholder="Email"
-              className=" flex flex-col w-full lg:w-auto border broder-gray-300 rounded-md p-2 mb-4 lg:mb-0 lg:mr-4 focus:outline-none"
+              className=" flex  w-full lg:w-auto border broder-gray-300 rounded-md p-2 mb-4 lg:mb-0 lg:mr-4 focus:outline-none"
             />
             <button className="bg-primary text-black font-semibold py-2 px-12 rounded-md">
               Subscribe
