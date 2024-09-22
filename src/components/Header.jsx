@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { FiX } from "react-icons/fi";
 import { IoCartOutline, IoPersonOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -14,19 +15,19 @@ const Header = () => {
 
           <ul class=" hidden md:flex space-x-6">
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
 
             <li>
-              <a href="/aboutus">About Us</a>
+              <Link to="/aboutus">About Us</Link>
             </li>
 
             <li>
-              <a href="/products">Products</a>
+              <Link to="/products">Products</Link>
             </li>
 
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
