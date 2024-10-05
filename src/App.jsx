@@ -4,11 +4,13 @@ import AboutUs from "./components/AboutUs";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import SignIn from "./components/SignIn";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const routes = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <ProtectedRoute element={<Home />} />,
   },
   {
     path: "/aboutus",
@@ -21,6 +23,10 @@ const routes = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/signin",
+    element: <SignIn />,
   },
 ]);
 const App = () => {

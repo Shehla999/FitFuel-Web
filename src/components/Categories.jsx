@@ -5,7 +5,7 @@ import Plant3 from "../assets/images/Frame 39.png";
 import { BsArrowRight } from "react-icons/bs";
 const Categories = () => {
   return (
-    <div className="py-2">
+    <div className="py-8">
       <h1 className="text-xl font-extrabold text-center  md:text-2xl lg:text-4xl  ">
         Categories
       </h1>

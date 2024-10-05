@@ -17,7 +17,7 @@ const Newsletter = () => {
             Trusted by over 100,000+ businesses and individuals
           </p>
 
-          <div className="flex justify-center items-center mb-4 ">
+          <div className="flex justify-start items-center mb-4 ">
             <div className=" flex space-x-2 text-start">
               {Array.from({ length: 5 }).map((_, i) => (
                 <FaStar key={i} className="text-yellow-500" />

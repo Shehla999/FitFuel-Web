@@ -60,7 +60,7 @@ const AboutUs = () => {
   return (
     <>
       <Header />
-      <div className="max-w-6xl mx-auto py-10 px-4 ">
+      <div className="max-w-6xl mx-auto py-10 px-4 mt-24 ">
         <div className=" mb-10">
           <button className="text-xs font-semibold bg-gray-200 py-2 px-4 rounded-full">
             {" "}
@@ -78,8 +78,8 @@ const AboutUs = () => {
 
         <div className="mb-8">
           <iframe
-            className="w-full h-8 md:h-96 rounded-md "
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.8481449451834!2d90.37732871538556!3d23.756906594558745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b856eff7e2db%3A0xf0156218c21f1d85!2sDhaka!5e0!3m2!1sen!2sbd!4v1649288973735!5m2!1sen!2sbd"
+            className="w-full h-80 md:h-96 rounded-md "
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.880294192259!2d72.83148180893198!3d33.55648637323653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df999324e8b081%3A0x4436b8765030008!2sIslamabad%20International%20Airport!5e0!3m2!1sen!2s!4v1727157551183!5m2!1sen!2s"
             title="Google Maps"
             allowFullScreen=""
             loading="lazy"
@@ -181,7 +181,7 @@ const AboutUs = () => {
             </button>
           </div>
 
-          <div className="lg:mt-10 sm:mt-32">
+          <div className="lg:mt-10 sm:mt-32 ">
             <img src={Photo9} alt="photo9" className="rounded-lg" />
           </div>
         </div>

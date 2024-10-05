@@ -15,4 +15,8 @@ export const routes = [
     name: "Contact",
     path: "./contact",
   },
+  {
+    name: "SignIn",
+    path: "./signin",
+  },
 ];

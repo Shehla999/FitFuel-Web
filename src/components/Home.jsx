@@ -1,19 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Hero from "./Hero";
-import Carts from "./carts";
+import Carts from "./Carts";
 import About from "./About";
 import Categories from "./Categories";
 import Testimonials from "./Testimonials";
 import Newsletter from "./Newsletter";
 import Footer from "./Footer";
 
-const Contact = () => {
+const Home = () => {
   return (
     <div>
       <Header />
       <Hero />
       <Carts />
+
       <About />
       <Categories />
       <Testimonials />
@@ -23,4 +24,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Home;
